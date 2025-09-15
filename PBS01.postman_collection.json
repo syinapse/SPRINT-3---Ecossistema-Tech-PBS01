@@ -1,16 +1,17 @@
 {
 	"info": {
-		"_postman_id": "d5ac0da1-a649-40ed-93b5-4cee522e5d10",
+		"_postman_id": "014cdd03-73c9-42c5-b003-828bccd0b875",
 		"name": "PBS01",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "40851092"
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Health Check",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://{{HOST}}/posse"
 			},
 			"response": []
 		}
@@ -40,7 +41,7 @@
 	"variable": [
 		{
 			"key": "HOST",
-			"value": ""
+			"value": "localhost:1880"
 		}
 	]
 }
