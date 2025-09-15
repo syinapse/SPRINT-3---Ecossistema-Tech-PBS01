@@ -58,7 +58,7 @@ Instale o Postman pelo site oficial e siga o passo a passo: ["Download Postman"]
 2.  Instale o pacote dnf-plugins-core:
     ```bash
     sudo dnf -y install dnf-plugins-core
-    ```****
+    ```
 
 3.  Adicione o repositório do Docker:
     ```bash
