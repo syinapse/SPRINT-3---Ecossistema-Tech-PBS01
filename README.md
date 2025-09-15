@@ -10,9 +10,10 @@
 ## 💡Resumo
 Um dos desafios enfrentados pelo futebol feminino é a falta de investimento em estruturas adequadas para a coleta de dados necessários dos jogos e atletas. Essa carência de informações confiáveis contribui para a desvalorização do esporte e dificulta análises de desempenho aprofundadas.
 
-Visando essa problemática, a Synapse apresenta uma solução simples e acessível, que fornece dados de jogo em tempo real, permitindo uma análise mais profunda do desempenho das atletas e equipes.
+Visando essa problemática, a Synapse apresenta uma solução simples e acessível, que fornece dados de jogo em tempo real, permitindo uma análise mais profunda do desempenho das atletas e equipes. 
 
-Essa solução permite que a coleta de dados seja mais eficiente e confiável, e em conjunto com o portal Passa a Bola, facilitamos a busca por informações confiáveis, o que demonstra o valor e potencial das atletas, aumentando a visibilidade do esporte e por consequência atraindo mais investimento.
+Essa solução permite que a coleta de dados seja mais eficiênte e confiável, e em conjunto com o portal Passa a Bola, facilitamos a busca por informações confiáveis, o que demonstra o valor e potencial das atletas, aumentando a visibilidade do esporte e por consequência atraindo mais investimento.
+
 ---
 
 ### ✨ Nossa solução
@@ -154,7 +155,7 @@ Instalando Docker Desktop
 
 2.  Inicie um contêiner do Docker:
     ```bash
-    docker run <NOME DO CONTEINER>
+    docker start <NOME DO CONTEINER>
     ```
 3.  Pare um contêiner do Docker:
     ```bash
