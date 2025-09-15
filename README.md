@@ -12,6 +12,7 @@ Um dos desafios enfrentados pelo futebol feminino é a falta de investimento em 
 
 Visando essa problemática, a Synapse apresenta uma solução simples e acessível, que fornece dados de jogo em tempo real, permitindo uma análise mais profunda do desempenho das atletas e equipes.
 
+Essa solução permite que a coleta de dados seja mais eficiente e confiável, e em conjunto com o portal Passa a Bola, facilitamos a busca por informações confiáveis, o que demonstra o valor e potencial das atletas, aumentando a visibilidade do esporte e por consequência atraindo mais investimento.
 ---
 
 ### ✨ Nossa solução
