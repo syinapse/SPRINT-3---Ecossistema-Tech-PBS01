@@ -1,7 +1,7 @@
 # SPRINT 3 - Ecossistema Tech PBS01
 
 ## Desenvolvido Por 
-* **Carlos Eduardo Sanches mariano Rm: 561756***
+* **Carlos Eduardo Sanches mariano Rm: 561756**
 * **Leonardo Eiji Kina RM: 562784**
 * **Luís Scacchetti Mariano RM: 562241**
 * **Rodrigo do Santos Abubakir RM: 561479**
@@ -15,7 +15,7 @@ Visando essa problemática, a Synapse apresenta uma solução simples e acessív
 ---
 
 ### ✨ Nossa solução
-![alt text](<Coleta de cados.png>)
+![diagrama](<assets/diagrama.png>)
 O PBS01 utiliza os 4 fundamentos do conceito de internet das coisas em sua arquitetura:
 * **Coleta de Dados:** Durante o jogo coletamos o número da camisa com coordenadas das jogadoras.
 * **Dispositivos:** Usamos módulos ESP32S com GPS NEO-6M acoplados a camisetas, à bola e ao gol. Esses dispositivos se conectam a uma rede Wi-Fi e publicam os dados em um broker MQTT em nuvem, o HiveMQ Cloud.
@@ -39,15 +39,15 @@ Siga as instruções abaixo para configurar o ambiente na sua máquina.
 Instale o Postman pelo site oficial e siga o passo a passo: ["Download Postman"](https://learning-postman-com.translate.goog/docs/getting-started/installation/installation-and-updates/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc&_x_tr_hist=true)
 ### 🐝 Configurando Hivemq Cloud
 1. Acesse o site oficial do [HiveMQ Cloud](https://www.hivemq.com/company/get-hivemq/). e faça seu cadastro:
-    ![alt text](image.png)
+    ![login](assets/login.png)
 2. Escolha seu plano: 
-    ![alt text](image-2.png)
+    ![plano](assets/plano.png)
 3. Esse é seu Cluster, grave essas informaçẽos para preencher a conexão entre o Node-RED e o Broker:
-    ![alt text](image-3.png)
+    ![cluster](assets/confCluster.png)
 4. Crie suas credenciais e deixando suas regras como Publisher e Subscriver:
-    ![alt text](image-1.png)
+    ![credenciais](assets/credenciais.png)
 5. Adicione os seguintes tópicos:
-    ![alt text](image-4.png)
+    ![topicos](assets/topics.png)
 ### 💾 Instalando Sistema IOT
 #### 🐋 Instalando Docker
 ##### Fedora Linux
@@ -173,6 +173,6 @@ Instalando Docker Desktop
    
 ### ▶️ Como Usar?   
 Para iniciar o projeto e simular o envio de dados, clique no botão no fluxo Dados no seu painel do Node-RED.
-    ![alt text](image-5.png)
+    ![fluxo buttons](assets/buttonDados.png)
 
 
