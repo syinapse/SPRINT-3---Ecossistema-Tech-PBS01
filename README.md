@@ -1,5 +1,7 @@
 # SPRINT 3 - Ecossistema Tech PBS01
-
+## Acompanhe no YouTube
+* **https://youtu.be/WUoCfEOm5O4**
+  
 ## Desenvolvido Por 
 * **Carlos Eduardo Sanches mariano Rm: 561756**
 * **Leonardo Eiji Kina RM: 562784**
