@@ -16,17 +16,21 @@ Essa solução permite que a coleta de dados seja mais eficiênte e confiável, 
 
 ---
 
-### ✨ Nossa solução
-![diagrama](<assets/diagrama.png>)
+## ✨ Nossa solução
+
+<div align="center">
+    <img src="assets/diagrama.png" alt="diagrama" width="600">
+</div>
+
 O PBS01 utiliza os 4 fundamentos do conceito de internet das coisas em sua arquitetura:
 * **Coleta de Dados:** Durante o jogo coletamos o número da camisa com coordenadas das jogadoras.
 * **Dispositivos:** Usamos módulos ESP32S com GPS NEO-6M acoplados a camisetas, à bola e ao gol. Esses dispositivos se conectam a uma rede Wi-Fi e publicam os dados em um broker MQTT em nuvem, o HiveMQ Cloud.
 * **Análise de Dados:** Com esses dados publicados, usamos o node-red para analisar e manipular os dados, identificando momentos de posse de bola e a autoria dos gols, posteriormente, publicamos novamente no broker r atualizamos essas informações em tempo real no Portal Passa a Bola, enriquecendo o perfil das atletas e a experiência do torcedor. 
-* **Conectividade:** Todos os componentes, por meio do WI-FI são conectados a um broker em nuvem, formando uma rede de comunicação robusta.
+* **Conectividade:** Todos os componentes, por meio do WI-FI são conectados a broker em nuvem, formando uma rede de comunicação robusta.
 
 ---
 
-### ⛏️ Componentes e Tecnologias
+## ⛏️ Componentes e Tecnologias
 * **ESP32S**
 * **Módulo GPS NEO-6M** 
 * **Broker MQTT em nuvem:** Utilizamos o **HiveMq Cloud**, mas você pode utilizar um de sua preferencia.
@@ -35,23 +39,32 @@ O PBS01 utiliza os 4 fundamentos do conceito de internet das coisas em sua arqui
 * **Health Check: Postman** para testar a comunicação e garantir o correto recebimento dos dados.
 
 ---
+
 ## 🚀Rodando Projeto na Máquina
 Siga as instruções abaixo para configurar o ambiente na sua máquina.
 ### 🧑‍🚀 Instalando Postman
 Instale o Postman pelo site oficial e siga o passo a passo: ["Download Postman"](https://learning-postman-com.translate.goog/docs/getting-started/installation/installation-and-updates/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc&_x_tr_hist=true)
 ### 🐝 Configurando Hivemq Cloud
-1. Acesse o site oficial do [HiveMQ Cloud](https://www.hivemq.com/company/get-hivemq/). e faça seu cadastro:
-    ![login](assets/login.png)
-2. Escolha seu plano: 
-    ![plano](assets/plano.png)
+
+1. Acesse o site oficial do HiveMQ Cloud. e faça seu cadastro:
+    <div align="center"> <img src="assets/login.png" alt="login" width="300"> </div>
+
+2. Escolha seu plano:
+    <div align="center"> <img src="assets/plano.png" alt="plano" width="400"> </div>
+
 3. Esse é seu Cluster, grave essas informaçẽos para preencher a conexão entre o Node-RED e o Broker:
-    ![cluster](assets/confCluster.png)
+    <div align="center"> <img src="assets/confCluster.png" alt="cluster" width="400"> </div>
+
 4. Crie suas credenciais e deixando suas regras como Publisher e Subscriver:
-    ![credenciais](assets/credenciais.png)
+    <div align="center"> <img src="assets/credenciais.png" alt="credenciais" width="400"> </div>
+
 5. Adicione os seguintes tópicos:
-    ![topicos](assets/topics.png)
+    <div align="center"> <img src="assets/topics.png" alt="topicos" width="400"> </div>
+    
 ### 💾 Instalando Sistema IOT
+
 #### 🐋 Instalando Docker
+
 ##### Fedora Linux
 1. Atualize os pacoes do seu sistema: 
    ```bash
@@ -175,6 +188,7 @@ Instalando Docker Desktop
    
 ### ▶️ Como Usar?   
 Para iniciar o projeto e simular o envio de dados, clique no botão no fluxo Dados no seu painel do Node-RED.
-    ![fluxo buttons](assets/buttonDados.png)
-
+  <div align="center">
+<img src="assets/buttonDados.png" alt="fluxo buttons" width="400">
+</div>
 
