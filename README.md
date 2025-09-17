@@ -188,8 +188,27 @@ Instalando Docker Desktop
 2. Importe o Arquivo no Postman.
 3. Configure a variável HOST para o endereço da sua aplicação Node-RED.
    
-### ▶️ Como Usar?   
-Para iniciar o projeto e simular o envio de dados, clique no botão no fluxo Dados no seu painel do Node-RED.
+### ▶️ Como Usar? 
+1. Guia dos fluxos:
+   <div align="center">
+    <img src="assets/fluxos.png" alt="fluxos" width="600">
+  </div>
+  
+  #### 🔍 Análise de Dados
+  <div align="center">
+    <img src="assets/analiseDeDados.png" alt="análide de dados" width="400">
+  </div>
+  Onde o sistema faz a captura dos dados com mqtt in, armazena os dados com change em uma váriavel de fluxo flow, análisa a posição dos dispositivo e define a proximidade de ambos com function e envia os dados novamente para o broker com mqtt out.
+
+#### ⚽ Portal Passa a Bola
+  <div align="center">
+    <img src="assets/portal.png" alt="Portal" width="400">
+  </div>
+Simulação de como o portal receberia as informações do broker. Para realizarmos essa simulação, transformamos o protocolo MQTT em um endpoin para transmitirmos os dados pelo protocolo HTTP.
+
+#### 📊 Dados 
+Onde você pode simular o envio de dados pelos dispositivos.
+Para iniciar o projeto clique no botão no fluxo Dados no seu painel do Node-RED.
   <div align="center">
 <img src="assets/buttonDados.png" alt="fluxo buttons" width="400">
 </div>
